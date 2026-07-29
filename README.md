@@ -31,4 +31,4 @@ Welcome to my personal portfolio repository! This project showcases my 7+ years 
 
 * **Location:** Imphal, Manipur, India
 * **Email:** dayanandaspm@gmail.com
-* **LinkedIn:** [LinkedIn Profile](https://linkedin.com) *(Add your profile URL)*
+* **LinkedIn:** [LinkedIn Profile]([https://linkedin.com](https://www.linkedin.com/in/sapam-dayananda-a18248111/)
