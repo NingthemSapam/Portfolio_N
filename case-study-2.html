@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Sales Analytics & Conversion Dashboard | Sapam Dayananda Singh</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+            --success-color: #4ade80;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        a.back-btn {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        a.back-btn:hover {
+            text-decoration: underline;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            margin: 25px 0;
+        }
+
+        .meta-item h4 {
+            margin: 0 0 5px 0;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+
+        .meta-item p {
+            margin: 0;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .visual-container {
+            margin: 30px 0;
+        }
+
+        .section-block {
+            margin-bottom: 35px;
+        }
+
+        .section-block h2 {
+            color: var(--accent-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            font-size: 1.4rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background-color: rgba(56, 189, 248, 0.1);
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-btn">← Back to Portfolio</a>
+        
+        <header>
+            <h1>E-Commerce Sales Analytics & Conversion Dashboard</h1>
+            <p>Consolidating multi-channel sales data into actionable dashboard insights to reduce drop-offs and optimize ad spend.</p>
+        </header>
+
+        <div class="meta-grid">
+            <div class="meta-item">
+                <h4>Role</h4>
+                <p>E-Commerce & Data Analyst</p>
+            </div>
+            <div class="meta-item">
+                <h4>Tools Used</h4>
+                <p>GA4, Power BI, Advanced Excel</p>
+            </div>
+            <div class="meta-item">
+                <h4>Core Focus</h4>
+                <p>Funnel Optimization & ROAS</p>
+            </div>
+            <div class="meta-item">
+                <h4>Key Result</h4>
+                <p style="color: var(--success-color);">+22% Conversion Rate</p>
+            </div>
+        </div>
+
+        <!-- DASHBOARD GRAPHIC SVG -->
+        <div class="visual-container">
+            <!-- Paste the SVG snippet provided above right here -->
+        </div>
+
+        <div class="section-block">
+            <h2>1. The Problem</h2>
+            <p>The client was running advertising campaigns across multiple platforms (Google Ads, Meta, Amazon PPC) but suffered from fragmented performance reporting. While web traffic was steady, sales conversions were declining, and team members were unable to identify where potential customers were abandoning their buyer journey.</p>
+        </div>
+
+        <div class="section-block">
+            <h2>2. Analytical Approach & Implementation</h2>
+            <ul>
+                <li><strong>Data Aggregation:</strong> Extracted raw transactional data from Shopify, Amazon Central, and Google Analytics 4 (GA4) into Advanced Excel and Power BI data models.</li>
+                <li><strong>Funnel Analysis:</strong> Mapped out the step-by-step conversion pipeline (Sessions → Product Views → Cart Adds → Checkout → Purchase) to isolate friction points.</li>
+                <li><strong>SKU & Channel Segmentation:</strong> Categorized top-performing products vs. low-converting landing pages to reallocate advertising budgets effectively.</li>
+            </ul>
+        </div>
+
+        <div class="section-block">
+            <h2>3. Key Insights Discovered</h2>
+            <div class="highlight-box">
+                <strong>Friction Point Identified:</strong> High mobile drop-off between "Add to Cart" and "Checkout Initialization" due to slow script loading times on high-traffic mobile landing pages.
+            </div>
+            <ul>
+                <li><strong>Wasted Ad Spend:</strong> 25% of ad budget was driving traffic to two low-inventory SKUs with below-average conversion rates (< 1%).</li>
+                <li><strong>Peak Buying Hours:</strong> Converted orders peaked consistently between 7 PM - 10 PM, whereas PPC ad budgets were exhausting by midday.</li>
+            </ul>
+        </div>
+
+        <div class="section-block">
+            <h2>4. Business Results & Impact</h2>
+            <ul>
+                <li><strong style="color: var(--success-color);">+22% Increase in Conversion Rate:</strong> Implemented checkout stream fixes based on funnel drop-off findings.</li>
+                <li><strong style="color: var(--success-color);">15% PPC Cost Savings:</strong> Shifted budget schedules to peak buying hours and away from low-converting SKUs.</li>
+                <li><strong>Automated Reporting:</strong> Replaced 5+ hours of manual weekly Excel reporting with a single auto-refreshing Power BI dashboard view.</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>© 2026 Sapam Dayananda Singh • E-Commerce & Data Analytics Specialist</p>
+        </footer>
+    </div>
+
+</body>
+</html>
